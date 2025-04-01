@@ -9,7 +9,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO facebook/folly
     REF "v${VERSION}"
-    SHA512 947484e1ed0c166a861b40b25d6a29a893b305f1092bc1d1af224368c0b6384784913afceaeb0f52f37d6c10fb5bdf6c37688479264969d7cf516a53e2cc794f
+    SHA512 c5ac6133e6161c8c2244feee30b4924df85a8b3586eb42aede6c0092a3ef6fd1fa5acac407fa7d21585bf9d856bbdb95c87ee1cdc7880ded97e0026b4a4948f6
     HEAD_REF main
     PATCHES
         fix-windows-minmax.patch
